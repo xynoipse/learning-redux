@@ -1,0 +1,37 @@
+{
+  "name": "learning-redux",
+  "version": "1.0.0",
+  "description": "Redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config ./webpack.config.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Jason",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@types/jest": "^26.0.15",
+    "axios-mock-adapter": "^1.19.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^0.21.0",
+    "immer": "^8.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "reselect": "^4.0.0"
+  }
+}
